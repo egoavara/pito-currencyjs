@@ -18,7 +18,13 @@
 		"eslint.nodePath": "node_modules",
 		"eslint.codeActionsOnSave.mode": "all",
 		"eslint.alwaysShowStatus": true,
-		"typescript.format.enable": false,
+		"eslint.validate": [
+			"javascript",
+			"typescript"
+		],
+		"eslint.workingDirectories": [
+			"./src"
+		],
 		"typescript.preferences.importModuleSpecifierEnding": "js",
 		"[typescript]": {
 			"editor.codeActionsOnSave": {
@@ -54,7 +60,7 @@
 			{
 				"label": "publish",
 				"type": "shell",
-				"command":"pnpm",
+				"command": "pnpm",
 				"args": [
 					"version",
 					"${input:PromptVersion}"

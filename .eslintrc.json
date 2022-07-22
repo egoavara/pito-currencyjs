@@ -12,6 +12,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "@typescript-eslint/no-namespace": "off",
         "indent": [
             "error",
             4
@@ -114,6 +115,7 @@
                 "maxEOF": 0
             }
         ],
+        
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": [
             "error",
@@ -126,7 +128,7 @@
         "key-spacing": [
             "error",
             {
-                "align": "value"
+                "align": "colon"
             }
         ],
         "semi": [
@@ -139,6 +141,6 @@
                 "before": false,
                 "after": true
             }
-        ],
+        ]
     }
 }
