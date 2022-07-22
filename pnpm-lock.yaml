@@ -5,7 +5,9 @@ specifiers:
   '@types/tap': ^15.0.7
   '@typescript-eslint/eslint-plugin': ^5.30.7
   '@typescript-eslint/parser': ^5.30.7
+  currency.js: ^2.0.4
   eslint: ^8.20.0
+  pito: ^0.4.3
   rimraf: ^3.0.2
   tap: ^16.3.0
   ts-node: ^10.9.1
@@ -16,7 +18,9 @@ devDependencies:
   '@types/tap': 15.0.7
   '@typescript-eslint/eslint-plugin': 5.30.7_6wltbjakwuqm7awqswigmiuhd4
   '@typescript-eslint/parser': 5.30.7_he2ccbldppg44uulnyq4rwocfa
+  currency.js: 2.0.4
   eslint: 8.20.0
+  pito: 0.4.3
   rimraf: 3.0.2
   tap: 16.3.0_6oasmw356qmm23djlsjgkwvrtm
   ts-node: 10.9.1_tdn3ypgnfy6bmey2q4hu5jonwi
@@ -770,6 +774,11 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+    dev: true
+
+  /currency.js/2.0.4:
+    resolution: {integrity: sha512-6/OplJYgJ0RUlli74d93HJ/OsKVBi8lB1+Z6eJYS1YZzBuIp4qKKHpJ7ad+GvTlWmLR/hLJOWTykN5Nm8NJ7+w==}
+    engines: {node: '>=4'}
     dev: true
 
   /debug/4.3.4:
@@ -1627,6 +1636,10 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: true
+
+  /pito/0.4.3:
+    resolution: {integrity: sha512-wfkn7wY72uSsZuoZuzFF+Xz1T1GHFBUzToo4DvEQEjaD3CK33e9UYQNorqJysKQG60OCU1sx0uJbYlovycBG/Q==}
     dev: true
 
   /pkg-dir/4.2.0:
