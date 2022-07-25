@@ -46,6 +46,6 @@
     },
     "peerDependencies": {
         "currency.js": ">=2.0.0",
-        "pito": "^0.4.3"
+        "pito": ">= 0.4.4"
     }
 }
