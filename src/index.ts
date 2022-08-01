@@ -1,5 +1,5 @@
 import currency ,{ Options , } from 'currency.js'
-import { pito ,plugin , } from 'pito'
+import { pito  , } from 'pito'
 
 /*
  * Pito : moment, datetime
@@ -24,12 +24,9 @@ export const PitoCurrency = (option?: Options ,): PitoCurrency => {
     }
 }
 // Moment, time
-Object.defineProperty(plugin ,'Currency' ,{ value: PitoCurrency ,configurable: false ,writable: false , } ,) 
-declare module 'pito' {
-    interface PitoPlugin {
-        Currency: typeof PitoCurrency
-    }
-    namespace pito {
-        type Currency = PitoCurrency
-    }
+
+export const Plugin  = {
+    Currency: PitoCurrency ,
 }
+
+export default Plugin
